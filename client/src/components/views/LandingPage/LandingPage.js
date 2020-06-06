@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react'
 import { Typography, Row, Button } from 'antd';
 import { API_URL, API_KEY, IMAGE_BASE_URL, IMAGE_SIZE, POSTER_SIZE } from '../../Config'
 import MainImage from './Sections/MainImage'
-import GridCard from '../../commons/GridCards'
+import GridCard from './Sections/GridCard'
 const { Title } = Typography;
 function LandingPage() {
     const buttonRef = useRef(null);
